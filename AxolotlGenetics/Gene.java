@@ -1,4 +1,5 @@
 package AxolotlGenetics;
+
 import java.util.Random;
 
 public class Gene {
@@ -33,6 +34,22 @@ public class Gene {
 
     public char getAllele4() {
         return allele4;
+    }
+
+    public void setAllele1(char allele) {
+        this.allele1 = allele;
+    }
+
+    public void setAllele2(char allele) {
+        this.allele2 = allele;
+    }
+
+    public void setAllele3(char allele) {
+        this.allele3 = allele;
+    }
+
+    public void setAllele4(char allele) {
+        this.allele4 = allele;
     }
 
     public String toString() {
